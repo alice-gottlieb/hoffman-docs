@@ -13,7 +13,7 @@ START = "<!-- BEGIN AUTO-GENERATED REPO STRUCTURE -->"
 END = "<!-- END AUTO-GENERATED REPO STRUCTURE -->"
 DESCRIPTION_RE = re.compile(r"^\s*(?:#|//|;|<!--)\s*Description:\s*(.*?)\s*(?:-->)?\s*$")
 SKIP_DIRS = {".git", ".vscode", "__pycache__"}
-PINNED_TOP_LEVEL_DIRS = ("examples", "scripts")
+PINNED_TOP_LEVEL_DIRS = ("examples", "templates")
 PINNED_TOP_LEVEL_RANKS = {name: rank for rank, name in enumerate(PINNED_TOP_LEVEL_DIRS)}
 
 
