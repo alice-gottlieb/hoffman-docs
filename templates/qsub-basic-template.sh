@@ -1,4 +1,5 @@
 #!/bin/bash
+# Description: Minimum qsub template.
 #$ -cwd
 #$ -o {OUTPUT_LOG_FILE_NAME}
 #$ -j y

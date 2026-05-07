@@ -1,4 +1,5 @@
 #!/bin/bash
+# Description: Backing up $SCRATCH to UCLA Box with rclone.
 #$ -cwd
 #$ -o /u/scratch/a/aliceg/logs/backup-logs/rclone.$JOB_ID.out
 #$ -j y
